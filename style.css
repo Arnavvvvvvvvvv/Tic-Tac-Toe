@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(180, 221, 242);
+    text-align: center;
+}
+
+h1{
+    font-size: 95px;
+    font-family: 'Harrington';
+}
+
+.container{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    
+}
+
+.box{
+    height: 20vh;
+    width: 10vw;
+    border: solid black 3px;
+    box-shadow: 0 0 1rem rgb(52, 51, 51);
+    font-size: 120px;
+    color: red;
+    background-color: #ebc053;
+}
+
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
+    cursor: size 40px;
+}
+
+#reset-btn{
+    color: rgb(41, 41, 41);
+    background-color: rgb(124, 184, 241);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid black 3px;
+    font-size: 20px;
+
+}
+#new-btn{
+    color: rgb(255, 0, 0);
+    background-color: #ebc053;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: solid black 3px;
+    font-size: 20px;
+}
+
+.msg-container{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5rem;
+    margin-bottom: 55px;
+}
+#msg{
+    color: rgb(59, 76, 204);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 200px;
+}
+
+.hide{
+    display: none;
+}
+
+.colorO{
+    color: rgb(0, 0, 0);
+}
